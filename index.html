@@ -10,8 +10,17 @@
             background: white;
             color: black;
             text-align: center;
-            padding: 40px;
+            padding: 30px;
             font-weight: bold;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .logo {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
 
         h1 {
@@ -27,34 +36,60 @@
 
         p {
             font-size: 18px;
-            line-height: 1.5;
             margin: 8px 0;
         }
+
+        .note {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .help {
+            font-weight: normal;
+            font-size: 18px;
+            margin-top: 35px;
+        }
+
+        a {
+            color: #0070d2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 
 <body>
 
-    <h1>FBB nCino Sandbox Login</h1>
+    <img src="nCino-full-sandbox.png"
+         alt="FBBogin</h1>
 
     <h2>Employees</h2>
 
-    <p>
-        Login with FBB Credentials (DUO)
-    </p>
+    <p>Login with FBB Credentials (DUO)</p>
 
-    <p>
+    <p class="note">
         Use your network credentials to sign in through Duo.
     </p>
 
     <h2>Administrators</h2>
 
-    <p>
-        Login with FBB Credentials (DUO) with Passkey
+    <p>Login with FBB Credentials (DUO) with Passkey</p>
+
+    <p class="note">
+        Use the Salesforce Login option only for emergency access and testing.
     </p>
 
-    <p>
-        Use the Salesforce Login option only for emergency access and testing.
+    <p class="help">
+        For help, please submit a
+        <a href="https://fbbank.sysaidit.com/servicePortal" target="_blank">
+            Help Desk ticket
+        </a>.
     </p>
 
 </body>
