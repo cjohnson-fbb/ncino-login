@@ -10,8 +10,7 @@
             background: white;
             color: black;
             text-align: center;
-            padding: 30px;
-            font-weight: bold;
+            padding: 20px;
             max-width: 650px;
             margin: auto;
         }
@@ -24,73 +23,81 @@
         }
 
         h1 {
-            font-size: 34px;
-            margin-bottom: 40px;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 35px;
         }
 
         h2 {
             font-size: 24px;
-            margin-top: 35px;
-            margin-bottom: 10px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 12px;
         }
 
-        p {
-            font-size: 18px;
-            margin: 8px 0;
+        .login-option {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
         }
 
         .note {
+            font-size: 18px;
             font-style: italic;
             font-weight: normal;
-            font-size: 18px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .help {
-            font-weight: normal;
-            font-size: 18px;
             margin-top: 35px;
+            font-size: 18px;
+            font-weight: normal;
         }
 
         a {
-            color: #0070d2;
+            color: #0070D2;
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
         }
-
     </style>
+
 </head>
 
 <body>
 
-    <img src="nCino-full-sandbox.png"
-         alt="FBBogin</h1>
+    nCino-full-sandbox.png
+
+    <h1>FBB nCino Sandbox Login</h1>
 
     <h2>Employees</h2>
 
-    <p>Login with FBB Credentials (DUO)</p>
+    <div class="login-option">
+        Login with FBB Credentials (DUO)
+    </div>
 
-    <p class="note">
+    <div class="note">
         Use your network credentials to sign in through Duo.
-    </p>
+    </div>
 
     <h2>Administrators</h2>
 
-    <p>Login with FBB Credentials (DUO) with Passkey</p>
+    <div class="login-option">
+        Login with FBB Credentials (DUO) with Passkey
+    </div>
 
-    <p class="note">
+    <div class="note">
         Use the Salesforce Login option only for emergency access and testing.
-    </p>
+    </div>
 
-    <p class="help">
+    <div class="help">
         For help, please submit a
         <a href="https://fbbank.sysaidit.com/servicePortal" target="_blank">
             Help Desk ticket
         </a>.
-    </p>
+    </div>
 
 </body>
 
